@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /documentation
+Disallow: /php
+Disallow: /psd
+
+User-agent: Yandex
+Disallow: /documentation
+Disallow: /php
+Disallow: /psd
+
+Host: https://vacuum-roll.kiev.ua
+Sitemap: https://vacuum-roll.kiev.ua/sitemap.xml

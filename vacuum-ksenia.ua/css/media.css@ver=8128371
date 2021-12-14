@@ -1,0 +1,185 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.content-img-right p:last-of-type {
+		margin-bottom: 0px;
+	}
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+	.navigation-top .navbar-brand img {
+		max-width: 100px;
+	}
+
+	.tab-pane ul {
+		padding-left: 0;
+		text-align: left;
+	}
+
+	.nav.nav-tabs br {
+		display: none;
+	}
+
+	#services-price-table {
+		font-size: 80%;
+	}
+
+	#services-price-table tr>td:first-child {
+		text-align: left;
+		max-width: 240px;
+		/*height: 50px;*/
+		overflow: scroll;
+	}
+
+
+	.contact_info_box {
+		justify-content: space-between;
+	}
+
+
+
+}
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	#navigation-top-1 {
+		padding: 0 0 0 0;
+	}
+
+	.tab-pane ul {
+		padding-left: 0;
+		text-align: left;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	.phone_nav {
+		margin: 18px 0px 0 0;
+	}
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.nav.nav-tabs :nth-child(1) a{
+		line-height: 33px;
+	}
+	.nav.nav-tabs :nth-child(2) a{
+		line-height: 33px;
+	}
+
+	.nav.nav-tabs :nth-child(3) a{
+		line-height: 22px;
+	}
+	/*.nav.nav-tabs a{
+        line-height: 44px;
+    }  */
+	.tab-content-nav li a{
+		max-width: 170px;
+	}
+
+	#home .content-img img {
+		margin: 18px 0 0 50px;
+	}
+
+	/*Phone near logo*/
+
+	div .navbar-header{
+		position: relative;
+	}
+
+	.navigation-top {
+		padding: 15px 0 32px 0;
+	}
+
+	.phone_nav {
+		margin: 4px 0 0 0;
+		position: absolute;
+		top: 40px;
+		left: 4px;
+		bottom: 20px;
+	}
+	/*END Phone near logo*/
+	#promo p {
+		display: inline-block;
+	}
+
+	section.content-img-right h2 {
+		margin-top: 0px;
+	}
+
+	#services-price-table thead th {
+		text-align: left;
+	}
+
+	#home .content-img img {
+		margin: 85px 0 0 50px;
+	}
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	/*.nav.nav-tabs :nth-child(3n+1) a{
+        line-height: 44px;
+    }   */
+	.tab-content-nav li a{
+		max-width: 170px;
+	}
+
+	.for_laptop {
+		margin-left: 5px;
+	}
+
+	#home p:last-of-type {
+		margin-top: 0px;
+	}
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
